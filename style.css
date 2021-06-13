@@ -138,3 +138,96 @@ input::placeholder {
     text-align: center;
     padding-top: 4px;
 }
+.links {
+    padding: 30px 0px 30px 0px;
+}
+.links>a {
+    text-decoration: none;
+    color: rgba(255, 255, 255, 0.75);
+}
+.title {
+    font-size: 48px;
+    font-family: "Roboto", sans-serif;
+    color: white;
+    font-weight: 700;
+    padding-bottom: 60px;
+}
+.first-device {
+    position: absolute;
+    height: 650px;
+    width: 270px;
+    border: solid 1px white;
+    
+}
+
+.image {
+    width: 270px;
+    height:180px;
+    margin-left: -1px;
+    background-color:rgba(255, 255, 255, 0.75) ;
+}
+li>:first-child {
+    position: relative;
+    text-align: center;
+}
+.first-image> img {
+    margin-top: 40px;
+}
+.screen, .hurt {
+    position: relative;
+    box-sizing: border-box;
+    border: 1px solid #2c71b8;
+    
+}
+.screen {
+    bottom:125px;
+    left: 230px;
+    padding: 4px;
+}
+.hurt {
+    bottom:90px;
+    left: 196px;
+    padding: 5px 5px 5px 5px;
+}
+.description>li {
+    text-align: left;
+    padding-top: 15px;
+    padding-left: 20px;
+    color: white;
+    font-size: 21px;
+}
+.device-name {
+    font-size: 30px;
+    font-weight: 700;
+}
+.price {
+    text-align: left;
+    padding: 35px;
+    font-size: 48px;
+    font-weight: 700;
+    color: white;
+}
+.more-details, .add-cart {
+    width: 210px;
+    height: 50px;
+    text-align: center;
+    margin-left: 30px;
+    margin-right: 30px;
+    color: white;
+    font-size: 21px;
+    font-weight: 700;
+}
+.more-details {
+    background-color: transparent;
+    border: 1px solid white;
+    margin-bottom: 15px;
+}
+.add-cart {
+    background-color: #568dc6;
+    border: none;
+}
+.white-basket {
+    position: relative;
+    top: -35px;
+    left:217px
+}
