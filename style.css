@@ -55,7 +55,86 @@ background-image: url('images/patt.png');
     color: #2c71b8;
     font-weight: 300;
 }
-.menu a:hover {
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    z-index: 10;
+}
+.dropdown-content a {
+    width: 286px;
+    background-color:#2c71b8 ;
+    color: white;
+    margin-left: -1px;
+
+}
+.dropdown:hover .dropdown-content{
+    display: block; 
     background-color: #2c71b8;
-    color:white;
+}
+
+.dropdown-content a:hover {
+    background-color:rgb(255, 255, 255) ;
+    color: #2c71b8;
+}
+li.dropdown>a:hover {
+    background-color: #2c71b8;
+    color: white;
+}
+.col-md-9 {
+    width: 75%;
+}
+form {
+    position: relative;
+    border-color: #2c71b8;
+    
+}
+    
+.input-search {
+    height: 40px;
+    width: 200px;
+    line-height: 40px;
+    background-color: transparent;
+    border: solid 1px #2c71b8;
+    margin-top: 5px;
+    padding-left: 20px;
+    padding-top: 5px;
+    outline: none;
+}
+input::placeholder {
+    color: #2c71b8;
+    font-size: 21px;
+    font-weight: 300;
+    font-family: "Roboto", sans-serif;
+}
+
+.btn-search {
+    position: absolute;
+    height: 30px;
+    width: 30px;
+    background-color: #2c71b8;
+    border:none;
+    top: 10px;
+    right: 0;
+}
+.btn-basket {
+    position: relative;
+    top:5px;
+    width: 40px;
+    height: 40px;
+    background-color: white;
+    border: white;
+}
+.product-count {
+    position: absolute;
+    top: 25px;
+    right:220px;
+    background-color: #2c71b8;
+    color: white;
+    border-radius: 50%;
+    width: 20px;
+    height: 20px;
+    font-size: 12px;
+    text-align: center;
+    padding-top: 4px;
 }

@@ -25,10 +25,21 @@
                 <div class="col-md-6">
                     <nav>
                         <ul class="menu">
-                            <li><a href="">Home 1</a></li>
-                            <li><a href="">Products 2</a></li>
-                            <li><a href="">Payment 3</a></li>
-                            <li><a href="">Shipping 4</a></li>
+                            <li><a href="">Home</a></li>
+                            <li class="dropdown">
+                                <a href="">Products</a>
+                            <div class="dropdown-content">
+                                <a href="">Lorem ipsum dolor</a>
+                                <a href="">Sit amet</a>
+                                <a href="">Consectetur adipisicing</a>
+                                <a href="">Tempor incididunt</a>
+                                <a href="">Dolore magna aliqua</a>
+                                <a href="">Ut enim ad minim veriam</a>
+                                <a href="">Quis nostrud</a>
+                            </div>
+                            <li>                                               
+                            <li><a href="">Payment</a></li>
+                            <li><a href="">Shipping</a></li>
 
  
                         </ul>
@@ -38,15 +49,17 @@
                     <div class="row">
                         <div class="col-md-9">
                             <form action="">
-                                <input type="text" placeholder="search">
-                                <button></button>
+                                <input type="text" placeholder="search" class="input-search">
+                                <button type="submit" class="btn-search"><img src="images/search.png" alt=""/> </button>
                             </form>
                     
                         </div>
                         <div class="col-md-3">
-                            <div class="cart"></div>
-                            <div class="product-count">0</div>
-                            </div>
+                            <div class="basket">
+                                <button type="submit" class="btn-basket"><img src="images/blue-basket.png"> 
+                                </button>
+                                <div class="product-count">4</div></div>
+                            
                         </div>
                     </div>
                 </div>
