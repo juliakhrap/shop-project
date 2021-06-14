@@ -150,10 +150,20 @@ input::placeholder {
     font-family: "Roboto", sans-serif;
     color: white;
     font-weight: 700;
-    padding-bottom: 60px;
+    
 }
-
-
+.title-sort {
+padding-bottom: 60px;
+}
+.sort {
+    text-decoration: none;
+    float:right;
+    border: white solid 1px;
+    font-size: 21px;
+    font-weight: 300;
+    color: white;
+    padding:12px 140px 12px 20px;
+}
 .image {
     position: absolute;
     width: 270px;
@@ -165,6 +175,7 @@ li>:first-child {
     position: relative;
     text-align: center;
 }
+
 .first-image> img {
     margin-top: 40px;
 }
@@ -223,7 +234,7 @@ li>:first-child {
 }
 .price {
     text-align: left;
-    padding-left: 70px;
+    padding-left: 60px;
     padding-bottom: 10px;
     font-size: 48px;
     font-weight: 700;
@@ -262,7 +273,7 @@ span {
     padding-bottom: 20px;
 }
 .cent {
-    text-align: top;
+    vertical-align: text-top;
 }
 
 .first-device {
