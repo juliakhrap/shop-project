@@ -127,8 +127,8 @@ input::placeholder {
 }
 .product-count {
     position: absolute;
-    top: 25px;
-    right:220px;
+    top: 20px;
+    right:210px;
     background-color: #2c71b8;
     color: white;
     border-radius: 50%;
@@ -152,15 +152,10 @@ input::placeholder {
     font-weight: 700;
     padding-bottom: 60px;
 }
-.first-device {
-    position: absolute;
-    height: 650px;
-    width: 270px;
-    border: solid 1px white;
-    
-}
+
 
 .image {
+    position: absolute;
     width: 270px;
     height:180px;
     margin-left: -1px;
@@ -173,36 +168,63 @@ li>:first-child {
 .first-image> img {
     margin-top: 40px;
 }
-.screen, .hurt {
+.first-screen, .first-hurt, .second-screen, .third-screen, .third-hurt {
     position: relative;
     box-sizing: border-box;
     border: 1px solid #2c71b8;
     
 }
-.screen {
+.first-screen {
     bottom:125px;
     left: 230px;
     padding: 4px;
 }
-.hurt {
+.first-hurt {
     bottom:90px;
     left: 196px;
     padding: 5px 5px 5px 5px;
 }
-.description>li {
+.second-screen {
+    bottom:118px;
+    left: 230px;
+    padding: 4px;
+}
+.white-hurt {
+    position: relative;
+    bottom: 84px;
+    left: 196px;
+    padding: 5px 5px 5px 5px;
+    background-color: #2c71b8;
+    border: 1px solid #2c71b8;
+}
+.third-screen {
+    bottom:136px;
+    left: 230px;
+    padding: 4px;
+}
+.third-hurt {
+    bottom:100px;
+    left: 196px;
+    padding: 5px 5px 5px 5px;
+}
+.description {
     text-align: left;
-    padding-top: 15px;
     padding-left: 20px;
     color: white;
     font-size: 21px;
 }
-.device-name {
+
+.name {
     font-size: 30px;
     font-weight: 700;
+    padding-top: 200px;
+    padding-bottom: 20px;
+
 }
 .price {
     text-align: left;
-    padding: 35px;
+    padding-left: 70px;
+    padding-bottom: 10px;
     font-size: 48px;
     font-weight: 700;
     color: white;
@@ -230,4 +252,40 @@ li>:first-child {
     position: relative;
     top: -35px;
     left:217px
+}
+span {
+    font-size: 21px;
+    font-weight: 700;
+}
+
+.dscr {
+    padding-bottom: 20px;
+}
+.cent {
+    text-align: top;
+}
+
+.first-device {
+    margin-right: 30px;
+    margin-left: 15px;
+    float: left;
+    padding-right: 15px;;
+    height: 650px;
+    width: 270px;
+    border: solid 1px white;
+}
+.second-device {
+    float: left;
+    padding-right: 15px;
+    height: 650px;
+    width: 270px;
+    border: solid 1px white;
+}
+.third-device {
+    margin-left: 30px;
+    float: left;
+    padding-right: 15px;
+    height: 650px;
+    width: 270px;
+    border: solid 1px white;
 }
