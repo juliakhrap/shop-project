@@ -212,7 +212,6 @@ padding-bottom: 15px;
     background-image: url('images/screen.png');
     background-repeat: no-repeat;
     background-position: center;
-    z-index: 10;
     position: absolute;
     right:10px;
     top:10px;
@@ -229,7 +228,6 @@ padding-bottom: 15px;
     background-image: url('images/blue-hurt.png');
     background-repeat: no-repeat;
     background-position: center;
-    z-index: 10;
     position: absolute;
     right:10px;
     top:50px;
@@ -312,4 +310,8 @@ span {
     position: absolute;
     right: 35px;
     bottom: 45px;
+}
+.btn-add-to-cart:hover,.btn-more-details:hover {
+    background-color: white;
+    color:#2c71b8;  
 }
