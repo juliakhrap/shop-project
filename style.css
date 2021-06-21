@@ -185,6 +185,17 @@ padding-bottom: 15px;
     border: solid white 1px;
     position: relative;
 }
+.first-device {
+    margin-left:14px;
+}
+
+.second-device {
+    margin-left:6px;
+}
+.third-device {
+    margin-left:-4px;
+}
+
 
 .product-images {
     background-color: rgba(255, 255, 255, 0.75);
@@ -290,7 +301,6 @@ span {
     height: 50px;
     margin-left: 30px;
     margin-right: 30px;
-    background-color: ;
     color: white;
     font-size: 21px;
     font-weight: 700;
